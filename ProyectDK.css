@@ -42,7 +42,7 @@ p{
 
 main{
     height: 94vh;
-    background-image: url(images/tumblr_bdbbd284f550f81a6456961645f56540_94f0f9ac_1280.jpg);
+    background-image: url(fictional-cafeteria-proyect/images/fondo-cafe.png);
     background-size: cover;
     filter: saturate(0.9);
 }
