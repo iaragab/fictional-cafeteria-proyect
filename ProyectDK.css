@@ -84,6 +84,7 @@ nav,  ul{
 }
 
 
+
 header a{
     font-size: 1.5rem;
     font-weight: 400;
@@ -99,7 +100,7 @@ header a:hover{
 .menuExpen {
     display: none; 
     width: 5%;
-    font-size: 2rem;
+    font-size: 3rem;
     background: none;
     border: none;
     color: rgb(10, 10, 10);
@@ -307,7 +308,7 @@ footer h4{
     }
     .img-nav{
         width: 21%;
-        height: 3%;
+        margin-top: -16px;
     }
 
     nav{
@@ -334,13 +335,17 @@ footer h4{
     }
       .menuExpen {
         display: block; 
-        margin-right: 20px;
-      }
+        margin-right: 40px;      
+    }
     
       nav ul.show {
         display: flex;
 
       }
+
+      header{
+        padding: 15px 15px;
+    }
 
     /* =================== */
     .title{
