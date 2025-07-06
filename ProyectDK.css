@@ -202,7 +202,7 @@ header a:hover{
     font-size: 1.3rem;
     color: white;
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
-    border: 1.5px solid var(--sunlight);
+    border: 1.5px solid var(--peach);
     border-radius: var(--borderRadioMax);
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
@@ -298,6 +298,7 @@ footer h4{
     .separate{
         width: 150px;
         height: 2.5px;
+        background: var(--peach);
     }
     /* =============== */
     main{
