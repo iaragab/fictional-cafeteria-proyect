@@ -308,6 +308,7 @@ footer h4{
     }
     .img-nav{
         width: 21%;
+        height: 80px;
         margin-top: -16px;
     }
 
@@ -320,10 +321,10 @@ footer h4{
         width: 100vw;
         display: none;
         padding: 2rem;
-        background: #604128a6;
+        background: #604128c9;
         backdrop-filter: blur(10px);
         flex-direction: column;
-        gap: 8rem;
+        gap: 9rem;
         position: absolute;
         right: 0;
         top: 85px;
@@ -383,7 +384,7 @@ footer h4{
     }
 
     .breakfast button{
-        width: 25%;
+        width: 35%;
         padding: 10px;
         font-size: 1rem;
     }
