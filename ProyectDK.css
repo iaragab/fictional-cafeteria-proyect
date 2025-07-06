@@ -296,7 +296,7 @@ footer h4{
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
     }
     .separate{
-        width: 250px;
+        width: 150px;
         height: 2.5px;
     }
     /* =============== */
@@ -305,7 +305,7 @@ footer h4{
         background-position-x: 50%;
     }
     .img-nav{
-        width: 12%;
+        width: 21%;
         height: 3%;
     }
 
@@ -333,6 +333,7 @@ footer h4{
     }
       .menuExpen {
         display: block; 
+        margin-right: 20px;
       }
     
       nav ul.show {
@@ -345,10 +346,13 @@ footer h4{
         margin: 10rem 0px 0rem 0px;
     }
     .title h1{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        padding: 5px;
+        text-align: center;
     }
     .title p{
         font-size: 1.5rem;
+        padding: 25px;
     }
 
     /* =================== */
@@ -359,12 +363,17 @@ footer h4{
         font-size: 1.2rem;
     }
     /* ==================== */
+    .breakfast {
+        width: 100%;
+        height: 60vh;
+    }
     .breakfast h2{
         font-size: 1.5rem;
     }
 
     .breakfast p{
         font-size: 1.2rem;
+        padding: 25px;
     }
 
     .breakfast button{
