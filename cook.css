@@ -1,0 +1,37 @@
+main{
+    height: 90vh;
+    background-image: url(../imagenes/mesa-cafe.png);
+    background-size: contain;
+    background-position-x: 20px;
+    filter: saturate(0.9);
+}
+
+h2 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.Products {
+    width: 100%;
+}
+
+article{
+    display: flex;
+    align-items: center;
+}
+
+.img-obj{
+    width: 80%;
+}
+
+figure{
+    margin: 0;
+    width: 45%;
+}
+
+.text{
+    width: 50%;
+    margin-right: 40px;
+}
+
+
