@@ -18,7 +18,7 @@ body{
 }
 
 main{
-    height: 90vh;
+    height: 60vh;
     background-image:url(images/menu-carta.png),url(images/39AFB636-6CA9-4E16-88C5-59363C205918_1_201_a.jpeg);
     background-position: bottom left, bottom right;
     background-repeat: no-repeat, repeat;    
