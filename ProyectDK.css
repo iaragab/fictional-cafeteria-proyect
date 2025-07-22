@@ -9,8 +9,8 @@ body{
 }
 
 :root{
-    --peach:#604128 ;
-    --sunlight:#dbcac3 ;
+    --peach:#98a1bc ;
+    --sunlight:#fff2cb ;
     --title:#521A0d;
     --darkGrey:#3b3a3a;
     --fondoColor-piel: #f4f4f4;
@@ -42,7 +42,7 @@ p{
 
 main{
     height: 94vh;
-    background-image: url(../fictional-cafeteria-proyect/images/fondo-caffe-cake.png);
+    background-image: url(images/cafe--fondo-cake.png),url(images/39AFB636-6CA9-4E16-88C5-59363C205918_1_201_a.jpeg);
     background-size: cover;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ header a:hover{
     width: 100%;
     height: 80vh;
     color: white;
-    background-image: url(../fictional-cafeteria-proyect/images/clearfondo3.png);
+    background-image:url(images/39AFB636-6CA9-4E16-88C5-59363C205918_1_201_a.jpeg);
     background-size: cover;
     filter: saturate(0.9);
     display: flex;
@@ -212,6 +212,7 @@ header a:hover{
 /* ====== collection ====== */
 
 .collection{
+    height: 90vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -261,7 +262,7 @@ header a:hover{
 
 .collection .OBJECT{
     padding: 2rem;
-    background-color: var(--sunlight);
+    background-image: url(images/39AFB636-6CA9-4E16-88C5-59363C205918_1_201_a.jpeg);
     border-radius: 100%;
     font-size: 3.5rem;
     margin: 0px 35px 0px 35px;
@@ -307,9 +308,10 @@ footer h4{
         background-position-x: 50%;
     }
     .img-nav{
-        width: 21%;
+        width: 6rem;
         height: 80px;
         margin-top: -16px;
+        margin-left: 10px;
     }
 
     nav{
@@ -321,18 +323,18 @@ footer h4{
         width: 100vw;
         display: none;
         padding: 2rem;
-        background: #604128c9;
+        background: rgba(255, 242, 223, 0.864);
         backdrop-filter: blur(10px);
         flex-direction: column;
-        gap: 9rem;
+        gap: 12rem;
         position: absolute;
         right: 0;
-        top: 85px;
+        top: 95px;
     }
     
     ul a{
-        color: var(--fondoColor-piel);
-        text-shadow: 1px 2px 2px #232222;
+        font-weight: 700;
+        color: rgb(88, 88, 88);
     }
       .menuExpen {
         display: block; 
@@ -394,6 +396,9 @@ footer h4{
     .collection, .first, .second{
         display: flex;
         flex-direction: column;
+    }
+    .collection{
+        height: 100%;
     }
     .book{
         width: 100%;

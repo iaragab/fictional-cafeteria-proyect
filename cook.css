@@ -1,8 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+:root{
+    --peach:#98a1bc ;
+    --sunlight:#fff2cb ;
+    --title:#521A0d;
+    --darkGrey:#3b3a3a;
+    --fondoColor-piel: #f4f4f4;
+    --borderRadioMax:100px;
+}
+
 main{
     height: 90vh;
-    background-image: url(../imagenes/mesa-cafe.png);
-    background-size: contain;
-    background-position-x: 20px;
+    background-image:url(images/menu-carta.png),url(images/39AFB636-6CA9-4E16-88C5-59363C205918_1_201_a.jpeg);
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat, repeat;    
+    background-size: contain, contain;
     filter: saturate(0.9);
 }
 
@@ -11,18 +31,80 @@ h2 {
     margin: 0px;
 }
 
+/* ====== menu ====== */
+
+
 .Products {
     width: 100%;
+    margin: 60px 0px;
 }
 
-article{
+/* =========== cakes ========== */
+
+.flex-cakes{
+    position: relative;
     display: flex;
-    align-items: center;
+    flex-direction: row;
 }
 
-.img-obj{
-    width: 80%;
+.imgCakes{
+    width: 30%;
+    position: absolute;
+    right: 10px;
 }
+
+.info-cakes{
+    width: 80vw;
+    padding-left: 25%;
+    background-color: var(--peach);
+    border-radius:0px 35px 35px 0px;
+} 
+
+
+
+/* =========== Muffins ========== */
+
+.flex-muffins{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imgMuffins{
+    width: 30%;
+    position: absolute;
+    left: 10px;
+}
+
+.info-Muffins{
+    width: 80vw;
+    padding-left: 25%;
+    background-color: var(--sunlight);
+    border-radius: 35px 0px 0px 35px
+} 
+
+/* =========== bread ========== */
+
+.flex-bread{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgBread{
+    width: 30%;
+    position: absolute;
+    right:10px;
+}
+
+.info-bread{
+    width: 80vw;
+    padding-left: 25%;
+    background-color: var(--peach);
+    border-radius:0px 35px 35px 0px;
+} 
+
+/* ========= other ========= */
 
 figure{
     margin: 0;
@@ -30,8 +112,46 @@ figure{
 }
 
 .text{
-    width: 50%;
+    width: 80vw;
     margin-right: 40px;
+    background-color: #3b3a3a;
+    border-radius: 0px 10px;
 }
 
+.listaMenu{
+    display: block;
+}
 
+.listaMenu li{
+    margin: 10px 0px;
+}
+
+/* ====== reservation ====== */
+
+.reservation{
+    width: 100%;
+    height: 80vh;
+    background-image:url(images/39AFB636-6CA9-4E16-88C5-59363C205918_1_201_a.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.reservation h2{
+    color: var(--peach);
+    text-shadow: #1e1f1a 1px 0px 0px;
+}
+
+.reservation button{
+    color: #201f1e;
+    width: 25%;
+    padding: 20px;
+    font-size: 1.3rem;
+    border: 1.5px solid var(--peach);
+    border-radius: var(--borderRadioMax);
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
