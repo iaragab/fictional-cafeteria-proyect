@@ -26,6 +26,13 @@ main{
     filter: saturate(0.9);
 }
 
+.secondpage h1{
+    font-size: 3.3rem;
+    color: var(--peach);
+    text-shadow: #1e1f1a 1px 0px 0px;
+
+}
+
 h2 {
     font-size: 60px;
     margin: 0px;
@@ -54,7 +61,7 @@ h2 {
 }
 
 .info-cakes{
-    width: 80vw;
+    width: 85vw;
     padding-left: 25%;
     background-color: var(--peach);
     box-shadow: 0px 3px 1px gray;
@@ -74,11 +81,11 @@ h2 {
 .imgMuffins{
     width: 30%;
     position: absolute;
-    left: 10px;
+    left: 20px;
 }
 
 .info-Muffins{
-    width: 80vw;
+    width: 85vw;
     padding-left: 25%;
     background-color: var(--sunlight);
     border-radius: 35px 0px 0px 35px;
@@ -101,7 +108,7 @@ h2 {
 }
 
 .info-bread{
-    width: 80vw;
+    width: 85vw;
     padding-left: 25%;
     background-color: var(--peach);
     border-radius:0px 35px 35px 0px;
@@ -109,6 +116,8 @@ h2 {
 } 
 
 /* ========= other ========= */
+
+
 
 figure{
     margin: 0;
@@ -124,6 +133,13 @@ figure{
 
 .listaMenu{
     display: block;
+}
+
+.listaMenu a{
+    color: #1e1f1a;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .listaMenu li{
@@ -191,11 +207,13 @@ figure{
 
 
     .imgCakes, .imgMuffins, .imgBread{
-    width: 45%;
-    top: 20px;
+        width: 50%;
     }
     .info-cakes, .info-bread{
         padding-left: 10%;
+    }
+    .info-Muffins{
+        padding-right: 10%;
     }
     .info-cakes h2, .info-bread h2{
         color: var(--sunlight);
@@ -204,16 +222,16 @@ figure{
         color: var(--peach);
     }
      .info-cakes h2, .info-bread h2, .info-Muffins h2{
-        font-size: 3rem;
-     }
+        font-size: 2.5rem;
+    }
 
     .reservation h2{
-    font-size: 3.5rem;
+    font-size: 2.2rem;
     }
 
     .reservation button{
-    font-size: 1.2rem;
-    width: 30%;
+    font-size: 1rem;
+    width: 50%;
 
 }
 
