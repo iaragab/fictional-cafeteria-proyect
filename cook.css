@@ -199,7 +199,7 @@ figure{
         background: rgba(255, 242, 223, 0.864);
         backdrop-filter: blur(10px);
         flex-direction: column;
-        gap: 9.5rem;
+        gap: 8rem;
         position: absolute;
         right: 0;
         top: 95px;
@@ -208,9 +208,22 @@ figure{
 
     .imgCakes, .imgMuffins, .imgBread{
         width: 50%;
+        bottom: 6px;
     }
+    .imgMuffins{
+        bottom: 60px;
+        left: 0px;
+    }
+    .imgBread{
+        bottom: 1px;
+    }
+    .imgCakes{
+        top: 1px;
+    }
+
     .info-cakes, .info-bread{
         padding-left: 10%;
+
     }
     .info-Muffins{
         padding-right: 10%;
@@ -225,8 +238,12 @@ figure{
         font-size: 2.5rem;
     }
 
+    /* ==== reservations === */
+    .reservation{
+    height: 50vh;
+    }
     .reservation h2{
-    font-size: 2.2rem;
+    font-size:  2.5rem;
     }
 
     .reservation button{
