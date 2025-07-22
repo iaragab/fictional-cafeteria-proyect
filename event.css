@@ -18,9 +18,10 @@ body{
 }
 
 main{
+    height: 90vh;
     background-image: url(images/mesa-cafe.png), url(images/fondo-event.png);
     background-size: cover;
-    background-position-y: 3px, -22px;
+    background-position-y: 10px, -2px;
     background-repeat: repeat, repeat;
 
 }
