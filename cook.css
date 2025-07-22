@@ -57,6 +57,7 @@ h2 {
     width: 80vw;
     padding-left: 25%;
     background-color: var(--peach);
+    box-shadow: 0px 3px 1px gray;
     border-radius:0px 35px 35px 0px;
 } 
 
@@ -80,10 +81,12 @@ h2 {
     width: 80vw;
     padding-left: 25%;
     background-color: var(--sunlight);
-    border-radius: 35px 0px 0px 35px
+    border-radius: 35px 0px 0px 35px;
+    box-shadow: 0px 3px 1px gray;
 } 
 
 /* =========== bread ========== */
+
 
 .flex-bread{
     position: relative;
@@ -102,6 +105,7 @@ h2 {
     padding-left: 25%;
     background-color: var(--peach);
     border-radius:0px 35px 35px 0px;
+    box-shadow: 0px 3px 1px gray;
 } 
 
 /* ========= other ========= */
@@ -124,6 +128,10 @@ figure{
 
 .listaMenu li{
     margin: 10px 0px;
+}
+
+.listaMenu{
+    list-style: disc;
 }
 
 /* ====== reservation ====== */
@@ -154,4 +162,37 @@ figure{
     border-radius: var(--borderRadioMax);
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
+}
+
+/* ======= phone ======= */
+
+@media (max-width: 800px) {
+    nav ul {
+        width: 100vw;
+        display: none;
+        padding: 2rem;
+        background: rgba(255, 242, 223, 0.864);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        gap: 9.5rem;
+        position: absolute;
+        right: 0;
+        top: 95px;
+    }    
+
+
+    .imgCakes, .imgMuffins, .imgBread{
+    width: 45%;
+    top: 20px;
+    }
+    .info-cakes, .info-bread{
+        padding-left: 10%;
+    }
+    .info-cakes h2, .info-bread h2{
+        color: var(--sunlight);
+    }
+    .info-Muffins h2{
+        color: var(--peach);
+    }
+
 }
