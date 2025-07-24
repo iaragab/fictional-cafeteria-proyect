@@ -184,7 +184,7 @@ figure{
 
 @media (max-width: 800px) {
     main{
-    height: 60vh;
+    height: 75vh;
     background-image:url(images/menu-carta.png),url(images/39AFB636-6CA9-4E16-88C5-59363C205918_1_201_a.jpeg);
     background-position: bottom left, bottom right;
     background-repeat: no-repeat, repeat;    
@@ -199,7 +199,7 @@ figure{
         background: rgba(255, 242, 223, 0.864);
         backdrop-filter: blur(10px);
         flex-direction: column;
-        gap: 8rem;
+        gap: 5em;
         position: absolute;
         right: 0;
         top: 95px;

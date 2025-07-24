@@ -10,7 +10,7 @@ body{
 
 :root{
     --font-title: "Red Hat Display", sans-serif;
-  --font-body: "Outfit", sans-serif;
+    --font-body: "Outfit", sans-serif;
     --peach:#98a1bc ;
     --sunlight:#fff2cb ;
     --title:#521A0d;
@@ -333,7 +333,7 @@ footer h4{
         width: 100vw;
         display: none;
         padding: 2rem;
-        background: rgba(255, 242, 223, 0.864);
+        background: rgba(255, 242, 223, 0.891);
         backdrop-filter: blur(10px);
         flex-direction: column;
         gap: 12rem;
