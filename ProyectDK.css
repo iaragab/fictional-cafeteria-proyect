@@ -19,7 +19,7 @@ body{
     --borderRadioMax:100px;
 }
 
-button:hover,
+
 .more:hover {
   transform: scale(1.05);
   background-color: var(--sunlight);

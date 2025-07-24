@@ -20,13 +20,23 @@ body{
 main{
     height: 90vh;
     background-image: url(images/mesa-cafe.png), url(images/fondo-event.png);
-    background-size: cover;
-    background-position-y: 10px, -2px;
-    background-repeat: repeat, repeat;
+    background-size: 65%, cover;
+    background-position-y: bottom, -2px;
+    background-position-x: 50%, 0px;
+    background-color: var(--peach);
+    background-repeat: no-repeat, repeat;
 
 }
 
+.brunch-title h1{
+    color: var(--sunlight);
+    text-shadow: 1px 1px 1px var(--darkGrey);
+    background-position-x: 50%;
+}
 /* ====== brunch ====== */
+.menuBrunch{
+    padding: 5%;
+}
 
 .brunch{
     width: 100%;
@@ -41,7 +51,7 @@ main{
 .parraf{
     width: 50%;
     border-radius: 50px;
-    background-color: #eae3e3 ;
+    background-color: var(--sunlight) ;
     box-shadow: 0px 1px 1px grey;
     display: flex;
     flex-direction: column;
@@ -82,7 +92,7 @@ main{
 }
 
 .box-title-icon{
-    background: orange;
+    background: var(--peach);
     width: 20px;
     height: 20px;
     border-radius: 50%;
