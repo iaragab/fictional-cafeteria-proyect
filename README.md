@@ -1,5 +1,3 @@
-# fictional-cafeteria-proyect
-
 # ☕ Cafetería "Oslo" — Proyecto Web
 
 <p align="center">
