@@ -3,7 +3,7 @@
 # ☕ Cafetería "Oslo" — Proyecto Web
 
 <p align="center">
-  <img src="images/cafee.png" alt="Logo Oslo Café" width="150">
+  <img src="images/cafee-muro.png" alt="Logo Oslo Café" width="150">
 </p>
 
 Este es un proyecto ficticio de una **página web para una cafetería**, creado con **HTML, CSS y JavaScript**.  
